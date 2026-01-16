@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -s -X POST -H "Host: $NEW_HOST" -d "$FORM_DATA" "$TARGET_URL"
+curl -s -H "Host: $1" -d "$3" "$2"
